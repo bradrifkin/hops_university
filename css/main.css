@@ -1,0 +1,153 @@
+.beer-types .glyphicon {
+	font-size: 32px;
+	color: #fac228;
+}
+
+.navbar-header #logo {
+	width: 30px;
+}
+
+.hidden-xs #logo {
+	margin-top: 10%;
+}
+
+.footer {
+	margin-top: 4em;
+	font-size: 0.8em;
+}
+
+#button-icon {
+	color: inherit;
+	font-size: 16px;
+}
+
+.header-container {
+    width: 100%;
+    height: 100%;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    padding: 20px;
+}
+
+.video-container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: rgba(255, 0, 0, 0.50);
+}
+
+video {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.65;
+    width: 100%;
+    top: 5%;
+}
+
+.header-container h1,
+.header-container h2,
+.header-container h4 {
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+}
+
+.header-container h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 6em;
+	text-shadow: 2px 2px #000;
+	letter-spacing: 5px;
+}
+
+.header-container h2,
+.header-container h4 {
+	font-family: 'Nunito', cursive;
+	text-shadow: 1px 1px 3px #000;
+	
+}
+
+.header-container h2 {
+	margin-bottom: 5em;
+	letter-spacing: 1px;
+}
+
+.visible-xs h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+}
+
+.variety {
+	margin-top: 40px;
+}
+
+.btn-info {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.btn-warning {
+	margin: 2% 0;
+}
+
+
+@media screen and (max-width: 767px) {
+	.variety,
+	.sub-title {
+		border-bottom: 1px solid #fac228;
+	}
+
+	.variety {
+		margin-top: 20px;
+	}
+
+	.header-container-xs {
+		position: relative;
+		z-index: 1;
+	}
+
+	.bg {
+		background: url('../img/four-beers.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		opacity: 0.3;
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.header-container-xs h1 {
+		color: #fff;
+		text-shadow: 1px 1px 3px #000;
+	}
+
+	.header-container-xs h2,
+	.header-container-xs h4 {
+		font-family: 'Nunito', cursive;
+	}
+	
+}
+
+@media screen and (max-width: 1200px) {
+	.header-container h2 {
+		margin-bottom: 1em;
+	}
+}
+
+@media screen and (max-width: 845px) {
+	.header-container h2 {
+		display: none;
+	}
+
+}
